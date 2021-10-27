@@ -34,3 +34,14 @@ ls sub* | xargs -tI{} fastqc -o trimmed_fastqc {}
 mkdir trimmed_multiqc
 multiqc -o trimmed_multiqc trimmed_fastqc
 ```
+
+## Исходные данные
+![image](https://user-images.githubusercontent.com/71615626/139140129-ea8a6591-5c01-46b0-8055-0524a86bac06.png)
+![image](https://user-images.githubusercontent.com/71615626/139140435-85e24f19-01aa-4c32-86c6-290d95d95171.png)
+![image](https://user-images.githubusercontent.com/71615626/139140580-9079ea70-a84a-44a0-b2b8-b91215bd7137.png)
+![image](https://user-images.githubusercontent.com/71615626/139140729-ab53bc31-d6a1-4aa4-9312-fc94cec47cd1.png)
+## Данные после обрезки
+![image](https://user-images.githubusercontent.com/71615626/139140810-dfe2d3e3-f461-44fd-b29a-6ecdffcd3a5a.png)
+![image](https://user-images.githubusercontent.com/71615626/139140887-c79d176b-03fe-4d59-a621-b9dc6e244119.png)
+![image](https://user-images.githubusercontent.com/71615626/139140931-18a8be74-85b1-4edc-b696-dee8df63613e.png)
+![image](https://user-images.githubusercontent.com/71615626/139140973-52d78013-f391-4a52-9214-447788f4a7dd.png)
